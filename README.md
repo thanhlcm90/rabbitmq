@@ -6,7 +6,7 @@ Commands
 
 ```bash
 
-wget https://raw.githubusercontent.com/olgac/rabbitmq/master/docker-compose.yml
+wget https://raw.githubusercontent.com/thanhlcm90/rabbitmq/master/docker-compose.yml
 docker network create --driver=overlay --attachable prod
 
 docker node update --label-add rabbitmq1=true node-1
